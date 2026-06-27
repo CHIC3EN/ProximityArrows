@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "com.chic3en.proximityarrows.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ProjectileWeaponItemMixin",
+		"PersistentProjectileEntityMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
